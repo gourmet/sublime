@@ -1,0 +1,23 @@
+<!--
+    addBeforeSave
+
+    Stubs the Model::beforeSave() method
+
+    @scope source.php
+    @trigger gourmet-addBeforeSave
+-->
+<snippet>
+    <content><![CDATA[
+/**
+ * {@inheritdoc}
+ */
+public function beforeSave($options = array()) {
+
+	return true;
+}
+
+]]></content>
+    <tabTrigger>gourmet-addBeforeSave</tabTrigger>
+    <scope>source.php</scope>
+    <description>Stubs the Model::beforeSave() method</description>
+</snippet>
