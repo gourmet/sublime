@@ -1,0 +1,17 @@
+[
+    { "caption": "-" },
+    {
+        "caption": "Gourmet",
+        "children":
+        [
+            {
+            	"caption": "Run all tests in file"
+            	, "command": "gourmet_run_test_file"
+            }
+            , {
+                "caption": "Open associated test file"
+                , "command": "gourmet_open_test_file"
+            }
+        ]
+    }
+]

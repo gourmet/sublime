@@ -1,0 +1,28 @@
+[
+    { "caption": "-" }
+    , {
+        "caption" : "Gourmet"
+        , "id": "gourmet"
+        , "children":
+        [
+            {
+                "id" : "gourmet_flush_cache"
+                , "command": "gourmet_flush_cache"
+            }
+            , {
+                "id" : "gourmet_run_test_file"
+                , "command": "gourmet_run_test_file"
+                , "caption": "Run all tests in file"
+            }
+            , {
+                "id": "gourmet_run_test_function"
+                , "command": "gourmet_run_test_function"
+            }
+            , {
+                "id": "gourmet_open_test_file"
+                , "command": "gourmet_open_test_file"
+                , "caption": "Open associated test file"
+            }
+        ]
+    }
+]

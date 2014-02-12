@@ -1,0 +1,35 @@
+<!--
+    newCommonTestCase
+
+    Stubs class TestCase that extends Common.TestSuite/CommonTestCase
+
+    @scope source.php
+    @trigger gourmet-newCommonTestCase
+-->
+<snippet>
+    <content><![CDATA[
+
+App::uses('CommonTestCase', 'Common.TestSuite');
+
+class ${1:ClassName}Test extends CommonTestCase {
+
+    public function setUp() {
+
+        parent::setUp();
+
+    }
+
+    public function tearDown() {
+
+        parent::tearDown();
+
+    }
+
+    ${2}
+}
+
+]]></content>
+    <tabTrigger>gourmet-newCommonTestCase</tabTrigger>
+    <scope>source.php</scope>
+    <description>Stubs class TestCase that extends CommonTestCase</description>
+</snippet>

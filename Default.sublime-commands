@@ -1,0 +1,21 @@
+[
+    {
+        "command": "gourmet_flush_cache"
+    }
+    , {
+        "caption": "Gourmet: Run all tests in file"
+        , "command": "gourmet_run_test_file"
+    }
+    , {
+        "caption": "Gourmet: Run test function"
+        , "command": "gourmet_run_test_function"
+    }
+    , {
+        "caption": "Gourmet: Run shell command"
+        , "command": "gourmet_run_query"
+    }
+    , {
+        "caption": "Gourmet: Open associated test file"
+        , "command": "gourmet_open_test_file"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "keys": ["ctrl+g", "ctrl+f"]
+        , "command": "gourmet_run_test_function"
+    }
+    , {
+        "keys": ["ctrl+g", "ctrl+t"]
+        , "command": "gourmet_run_test_file"
+    }
+    , {
+        "keys": ["ctrl+g", "ctrl+q"]
+        , "command": "gourmet_run_query"
+    }
+    , {
+        "keys": ["ctrl+g", "ctrl+o"]
+        , "command": "gourmet_open_test_file"
+    }
+]

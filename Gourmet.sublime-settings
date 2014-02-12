@@ -1,0 +1,10 @@
+{
+    "top_folder_hints": [ ".git", ".hg" ],
+    "folder_exclusions": [ "Plugin" ],
+    "max_search_secs": 2,
+    "cake_additional_args": false,
+    "copy_env": true,
+    "override_env": {},
+    "debug": 1,
+    "path_to_cake": ""
+}
