@@ -1,0 +1,63 @@
+[
+    {
+        "id": "tools"
+        , "children":
+        [{
+            "id": "gourmet"
+            , "caption" : "Gourmet"
+            , "children":
+            [
+                {
+                    "id" : "gourmet_flush_cache"
+                    , "command": "gourmet_flush_cache"
+                }
+                , {
+                    "id" : "gourmet_run_test_file"
+                    , "command": "gourmet_run_test_file"
+                    , "caption": "Run all tests in file"
+                }
+                , {
+                    "id": "gourmet_run_test_function"
+                    , "command": "gourmet_run_test_function"
+                }
+                , {
+                    "id": "gourmet_open_test_file"
+                    , "command": "gourmet_open_test_file"
+                    , "caption": "Open associated test file"
+                }
+            ]
+        }]
+    }
+   , {
+        "caption": "Preferences"
+        , "mnemonic": "n"
+        , "id": "preferences"
+        , "children":
+        [
+            {
+                "caption": "Package Settings"
+                , "mnemonic": "P"
+                , "id": "package-settings"
+                , "children":
+                [
+                    {
+                        "caption": "Gourmet"
+                        , "children":
+                        [
+                            {
+                                "command": "open_file"
+                                , "args": {"file": "${packages}/Gourmet/Gourmet.sublime-settings"}
+                                , "caption": "Settings – Default"
+                            }
+                            , {
+                                "command": "open_file"
+                                , "args": {"file": "${packages}/User/Gourmet.sublime-settings"}
+                                , "caption": "Settings – User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
